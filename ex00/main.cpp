@@ -6,7 +6,7 @@
 /*   By: kingstephane <kingstephane@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/12 18:35:38 by kingstephan       #+#    #+#             */
-/*   Updated: 2026/01/12 18:35:45 by kingstephan      ###   ########.fr       */
+/*   Updated: 2026/01/14 15:30:08 by kingstephan      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,8 @@ int main() {
     std::cout << "\n=== Test 2: Destruction ===" << std::endl;
     ClapTrap clap2("Alice");
     clap2.takeDamage(20);
-    clap2.attack("target2");  // Should fail
-    clap2.beRepaired(5);      // Should fail
+    clap2.attack("target2");
+    clap2.beRepaired(5);
     
     std::cout << "\n=== Test 3: No energy ===" << std::endl;
     ClapTrap clap3("Charlie");
